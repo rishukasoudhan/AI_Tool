@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "homepage": "http://rishukasoudhan.github.io/AI_Tool", 
+  "homepage": "https://rishukasoudhan.github.io/AI_Tool", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",

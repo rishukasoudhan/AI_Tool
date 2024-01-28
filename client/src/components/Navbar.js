@@ -8,6 +8,7 @@ const Navbar = () => {
   const theme= useTheme();
   const navigate = useNavigate();
   const loggedIn = JSON.parse(localStorage.getItem("authToken"));
+
     //handle logout
     const handleLogout = async () => {
       try {
@@ -19,6 +20,7 @@ const Navbar = () => {
         console.log(error);
       }
     };
+    
   return (
     <Box
       width={"100%"}
